@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765822510331",
+    "project_id": "buoyant-dynamo-426221-d9",
+    "storage_bucket": "buoyant-dynamo-426221-d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765822510331:android:0b632ff5961d022a16fc5e",
+        "android_client_info": {
+          "package_name": "com.example.laricao_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3sRoyq1PqkzMtM4nawJenIKYpiT2FZ4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
