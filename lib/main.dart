@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_config/flutter_config.dart';
-import 'package:laricao_app/screens/welcome_page.dart';
 import 'package:laricao_app/widgets/auth_check.dart';
 import 'package:provider/provider.dart';
 import 'package:laricao_app/repositories/restaurantes_repository.dart';

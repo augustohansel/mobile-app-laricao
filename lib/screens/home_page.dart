@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'track_page.dart';
-import 'sign_in_page.dart';
+import 'login_page.dart';
+import 'package:laricao_app/services/auth_service.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -14,7 +16,7 @@ class HomePage extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              top: 50.0, 
+              top: 80.0, 
               left: 20.0, 
               child: Stack(
                 children: [
@@ -53,7 +55,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const Positioned(
-              top: 75.0,
+              top: 115.0,
               left: 140.0, 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,7 +83,7 @@ class HomePage extends StatelessWidget {
             Positioned(
               left: 0,
               right: 0,
-              top: 180.0,
+              top: 200.0,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -179,8 +181,8 @@ class HomePage extends StatelessWidget {
             Positioned.fill(
               left: 20,
               right: 20,
-              top: 220.0,
-              bottom: 417.0,
+              top: 240.0,
+              bottom: 400.0,
               child: GestureDetector(
                 onTap: () {
                   Navigator.push(
@@ -247,10 +249,11 @@ class HomePage extends StatelessWidget {
             left: 0,
             right: 0,
             child: GestureDetector(
-              onTap: () {
-                Navigator.push(
+              onTap: () async {
+                await context.read<AuthService>().logout();
+                Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => const SignInPage()),
+                  MaterialPageRoute(builder: (context) => const LoginPage()),
                 );
               },
               child: const Center(

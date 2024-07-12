@@ -1,6 +1,5 @@
 import 'package:laricao_app/screens/home_page.dart';
 import 'package:laricao_app/screens/welcome_page.dart';
-import 'package:laricao_app/screens/sign_in_page.dart';
 import 'package:laricao_app/services/auth_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

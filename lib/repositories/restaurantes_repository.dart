@@ -23,7 +23,7 @@ class RestaurantesRepository extends ChangeNotifier {
       nome: 'Dunkin Donuts',
       endereco: '1159 N Rengstorff Ave, Mountain View, CA 94043, Estados Unidos',
       foto:
-          'https://plantbasednews.org/app/uploads/2023/11/plant-based-news-dunkin-donuts-vegan-1200x745.jpg',
+          'https://visitguernseycounty.com/wp-content/uploads/2022/06/original-dunkin-donuts-logo-jq36q7774cczqng8.jpg',
       latitude: 37.421288233183375,
       longitude: -122.09293978785412,
     ),
@@ -39,15 +39,15 @@ class RestaurantesRepository extends ChangeNotifier {
       nome: 'IHOP',
       endereco: '846 Independence Ave, Mountain View, CA 94043, Estados Unidos',
       foto:
-          'https://www.pymnts.com/wp-content/uploads/2018/04/ihop-qsr-technology.jpg',
+          'https://www.canoncitydailyrecord.com/wp-content/uploads/migration/2015/0114/20150114_15DRIHOP-4.jpg?w=620',
       latitude: 37.40857423672899,
       longitude: -122.08388465275307,
     ),
     Restaurant(
-      nome: 'The Odeon',
+      nome: 'Starbucks',
       endereco: '846 Independence Ave, Mountain View, CA 94043, Estados Unidos',
       foto:
-          'https://images.ctfassets.net/1aemqu6a6t65/1hBi9RXzT9oWWCLbQJses7/4a4750faa71f377c0eb8fbb70f08e794/the-odeon-alex-lopez-001?w=1200&h=800&q=75',
+          'https://c4.wallpaperflare.com/wallpaper/832/260/8/other-wallpaper-preview.jpg',
       latitude: 37.41631196632119,
       longitude: -122.0795502030984,
     ),

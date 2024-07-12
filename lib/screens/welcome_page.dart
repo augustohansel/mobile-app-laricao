@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'sign_in_page.dart';
+import 'package:laricao_app/screens/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -26,7 +26,7 @@ class WelcomePage extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const SignInPage()),
+                    MaterialPageRoute(builder: (context) => const LoginPage()),
                   );
                 },
                 backgroundColor: const Color(0xFF1F1F1F),
